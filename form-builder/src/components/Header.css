@@ -1,0 +1,69 @@
+/* Header.css */
+
+.header {
+    position: relative;
+    margin: 0px 10px;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #000;
+    height: 47px;
+  }
+  
+  .header_info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header_search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f4f4f9;
+    width: 700px;
+    height: 45px;
+    border-radius: 7px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    max-width: 10%;
+    max-height: 10%;
+  }
+ 
+  .formimage{
+    height: 40px;
+  }
+
+  .header_right {
+    display: flex;
+  }
+  
+  .info {
+    color: #5f6368;
+    font-size: 22px;
+    padding-left: 5px;
+    align-items: start;
+  }
+  
+  .header_search input[type="text"] {
+    border: none;
+    /* Remove the border */
+    outline: none;
+    /* Remove the outline */
+    width: 100%;
+    /* Make the input stretch to fill the container */
+    height: 100%;
+    /* Make the input stretch to fill the container */
+    padding: 0 10px;
+    /* Add some padding for better appearance */
+    background: transparent;
+    /* Make the background transparent */
+  }
+  
